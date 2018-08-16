@@ -1,9 +1,9 @@
 //
 //  UIImage+Scale.m
-//  EWallet
+//  Category_OC
 //
-//  Created by tom on 14-9-17.
-//  Copyright (c) 2014年 soso. All rights reserved.
+//  Created by teamotto on 2018/8/16.
+//  Copyright © 2018年 soso. All rights reserved.
 //
 
 #import "UIImage+Scale.h"
@@ -15,7 +15,6 @@
 {
     CGImageRef subImageRef = CGImageCreateWithImageInRect(self.CGImage, rect);
     CGRect smallBounds = CGRectMake(0, 0, CGImageGetWidth(subImageRef), CGImageGetHeight(subImageRef));
-	
     UIGraphicsBeginImageContext(smallBounds.size);
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextDrawImage(context, smallBounds, subImageRef);
@@ -78,6 +77,28 @@
     UIImage *theImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return  theImage;
+}
+- (instancetype)circleImage
+{
+    // self -> 圆形图片
+    // 开启图形上下文
+    UIGraphicsBeginImageContext(self.size);
+    // 上下文
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    // 添加一个圆
+    CGRect rect = CGRectMake(0, 0, self.size.width, self.size.height);
+    //
+    CGContextAddEllipseInRect(context, rect);
+    // 裁剪
+    CGContextClip(context);
+    // 绘制图片到圆上面
+    [self drawInRect:rect];
+    // 获得图片
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    // 结束图形上下文
+    UIGraphicsEndImageContext();
+    
+    return image;
 }
 
 -(NSData *)imageWithDatabyte:(CGFloat)byte {

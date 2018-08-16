@@ -17,6 +17,8 @@
 		E75D810821252CBC00CD7C7D /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D810621252CBC00CD7C7D /* UIButton+Badge.m */; };
 		E75D810E2125344700CD7C7D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D810C2125344600CD7C7D /* UIView+Frame.m */; };
 		E75D81112125513D00CD7C7D /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D810F2125513C00CD7C7D /* UIImage+Scale.m */; };
+		E75D81172125561900CD7C7D /* UITabBar+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D81162125561900CD7C7D /* UITabBar+Badge.m */; };
+		E75D813B2125660200CD7C7D /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D813A2125660200CD7C7D /* NSDate+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,10 @@
 		E75D810D2125344600CD7C7D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		E75D810F2125513C00CD7C7D /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
 		E75D81102125513C00CD7C7D /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		E75D81152125561900CD7C7D /* UITabBar+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Badge.h"; sourceTree = "<group>"; };
+		E75D81162125561900CD7C7D /* UITabBar+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Badge.m"; sourceTree = "<group>"; };
+		E75D81392125660200CD7C7D /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		E75D813A2125660200CD7C7D /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,10 @@
 		E75D810221252C4700CD7C7D /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E75D81392125660200CD7C7D /* NSDate+Extension.h */,
+				E75D813A2125660200CD7C7D /* NSDate+Extension.m */,
+				E75D81152125561900CD7C7D /* UITabBar+Badge.h */,
+				E75D81162125561900CD7C7D /* UITabBar+Badge.m */,
 				E75D81102125513C00CD7C7D /* UIImage+Scale.h */,
 				E75D810F2125513C00CD7C7D /* UIImage+Scale.m */,
 				E75D810D2125344600CD7C7D /* UIView+Frame.h */,
@@ -172,10 +182,12 @@
 				E75D81112125513D00CD7C7D /* UIImage+Scale.m in Sources */,
 				E75D810E2125344700CD7C7D /* UIView+Frame.m in Sources */,
 				E75D80F121252C2D00CD7C7D /* ViewController.m in Sources */,
+				E75D81172125561900CD7C7D /* UITabBar+Badge.m in Sources */,
 				E75D80FC21252C2E00CD7C7D /* main.m in Sources */,
 				E75D810821252CBC00CD7C7D /* UIButton+Badge.m in Sources */,
 				E75D80EE21252C2D00CD7C7D /* AppDelegate.m in Sources */,
 				E75D810521252C9200CD7C7D /* AppDelegate+Notification.m in Sources */,
+				E75D813B2125660200CD7C7D /* NSDate+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
