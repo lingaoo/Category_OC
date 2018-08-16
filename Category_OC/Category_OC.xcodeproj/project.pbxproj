@@ -16,6 +16,7 @@
 		E75D810521252C9200CD7C7D /* AppDelegate+Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D810421252C9200CD7C7D /* AppDelegate+Notification.m */; };
 		E75D810821252CBC00CD7C7D /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D810621252CBC00CD7C7D /* UIButton+Badge.m */; };
 		E75D810E2125344700CD7C7D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D810C2125344600CD7C7D /* UIView+Frame.m */; };
+		E75D81112125513D00CD7C7D /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D810F2125513C00CD7C7D /* UIImage+Scale.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		E75D810721252CBC00CD7C7D /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
 		E75D810C2125344600CD7C7D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		E75D810D2125344600CD7C7D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		E75D810F2125513C00CD7C7D /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
+		E75D81102125513C00CD7C7D /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		E75D810221252C4700CD7C7D /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E75D81102125513C00CD7C7D /* UIImage+Scale.h */,
+				E75D810F2125513C00CD7C7D /* UIImage+Scale.m */,
 				E75D810D2125344600CD7C7D /* UIView+Frame.h */,
 				E75D810C2125344600CD7C7D /* UIView+Frame.m */,
 				E75D810721252CBC00CD7C7D /* UIButton+Badge.h */,
@@ -164,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E75D81112125513D00CD7C7D /* UIImage+Scale.m in Sources */,
 				E75D810E2125344700CD7C7D /* UIView+Frame.m in Sources */,
 				E75D80F121252C2D00CD7C7D /* ViewController.m in Sources */,
 				E75D80FC21252C2E00CD7C7D /* main.m in Sources */,
@@ -312,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R99S97SR4;
 				INFOPLIST_FILE = Category_OC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,6 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R99S97SR4;
 				INFOPLIST_FILE = Category_OC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
