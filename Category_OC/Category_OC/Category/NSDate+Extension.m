@@ -55,4 +55,14 @@
     return str;
 }
 
++(NSInteger)integerValueWithFormDate:(NSDate *)date {
+    return [date timeIntervalSince1970];
+}
+
++(NSInteger)numberOfDaysWithFromDate:(NSDate *)fromDate toDate:(NSDate *)toDate {
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    NSDateComponents *comp = [calendar components:NSCalendarUnitDay fromDate:fromDate toDate:toDate options:NSCalendarWrapComponents];
+    return comp.day;
+}
+
 @end
