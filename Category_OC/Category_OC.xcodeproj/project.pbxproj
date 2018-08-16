@@ -15,6 +15,7 @@
 		E75D80FC21252C2E00CD7C7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D80FB21252C2E00CD7C7D /* main.m */; };
 		E75D810521252C9200CD7C7D /* AppDelegate+Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D810421252C9200CD7C7D /* AppDelegate+Notification.m */; };
 		E75D810821252CBC00CD7C7D /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D810621252CBC00CD7C7D /* UIButton+Badge.m */; };
+		E75D810E2125344700CD7C7D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D810C2125344600CD7C7D /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		E75D810421252C9200CD7C7D /* AppDelegate+Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Notification.m"; sourceTree = "<group>"; };
 		E75D810621252CBC00CD7C7D /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
 		E75D810721252CBC00CD7C7D /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
+		E75D810C2125344600CD7C7D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		E75D810D2125344600CD7C7D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		E75D810221252C4700CD7C7D /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E75D810D2125344600CD7C7D /* UIView+Frame.h */,
+				E75D810C2125344600CD7C7D /* UIView+Frame.m */,
 				E75D810721252CBC00CD7C7D /* UIButton+Badge.h */,
 				E75D810621252CBC00CD7C7D /* UIButton+Badge.m */,
 				E75D810321252C9200CD7C7D /* AppDelegate+Notification.h */,
@@ -159,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E75D810E2125344700CD7C7D /* UIView+Frame.m in Sources */,
 				E75D80F121252C2D00CD7C7D /* ViewController.m in Sources */,
 				E75D80FC21252C2E00CD7C7D /* main.m in Sources */,
 				E75D810821252CBC00CD7C7D /* UIButton+Badge.m in Sources */,
