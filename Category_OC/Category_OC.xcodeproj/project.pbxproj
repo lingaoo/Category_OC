@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E714C6062126A888005B8A8F /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E714C6052126A887005B8A8F /* NSString+URLEncoding.m */; };
 		E75D80EE21252C2D00CD7C7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D80ED21252C2D00CD7C7D /* AppDelegate.m */; };
 		E75D80F121252C2D00CD7C7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D80F021252C2D00CD7C7D /* ViewController.m */; };
 		E75D80F421252C2D00CD7C7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75D80F221252C2D00CD7C7D /* Main.storyboard */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E714C6042126A887005B8A8F /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		E714C6052126A887005B8A8F /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
 		E75D80E921252C2D00CD7C7D /* Category_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Category_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75D80EC21252C2D00CD7C7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E75D80ED21252C2D00CD7C7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,11 +82,11 @@
 		E75D80EB21252C2D00CD7C7D /* Category_OC */ = {
 			isa = PBXGroup;
 			children = (
+				E75D810221252C4700CD7C7D /* Category */,
 				E75D80EC21252C2D00CD7C7D /* AppDelegate.h */,
 				E75D80ED21252C2D00CD7C7D /* AppDelegate.m */,
 				E75D80EF21252C2D00CD7C7D /* ViewController.h */,
 				E75D80F021252C2D00CD7C7D /* ViewController.m */,
-				E75D810221252C4700CD7C7D /* Category */,
 				E75D80F221252C2D00CD7C7D /* Main.storyboard */,
 				E75D80F521252C2E00CD7C7D /* Assets.xcassets */,
 				E75D80F721252C2E00CD7C7D /* LaunchScreen.storyboard */,
@@ -98,6 +101,8 @@
 			children = (
 				E75D813C21256D0400CD7C7D /* NSString+Extension.h */,
 				E75D813D21256D0400CD7C7D /* NSString+Extension.m */,
+				E714C6042126A887005B8A8F /* NSString+URLEncoding.h */,
+				E714C6052126A887005B8A8F /* NSString+URLEncoding.m */,
 				E75D81392125660200CD7C7D /* NSDate+Extension.h */,
 				E75D813A2125660200CD7C7D /* NSDate+Extension.m */,
 				E75D81152125561900CD7C7D /* UITabBar+Badge.h */,
@@ -184,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E714C6062126A888005B8A8F /* NSString+URLEncoding.m in Sources */,
 				E75D81112125513D00CD7C7D /* UIImage+Scale.m in Sources */,
 				E75D810E2125344700CD7C7D /* UIView+Frame.m in Sources */,
 				E75D80F121252C2D00CD7C7D /* ViewController.m in Sources */,

@@ -40,7 +40,7 @@ static BOOL kHIDDEN_NOTIFICATION_LOG = YES;
     action1.authenticationRequired = true;
     /// 红字，重点提示按钮
     action1.destructive = true;
-    {
+    if (@available(iOS 9.0, *)) {
         // 输入内容
         action1.behavior = UIUserNotificationActionBehaviorTextInput;
         action1.parameters = @{UIUserNotificationTextInputActionButtonTitleKey: @"拒绝原因",UIUserNotificationActionResponseTypedTextKey:@"kdkfd"};
