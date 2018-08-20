@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIColor+HEX.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    self.view.backgroundColor = [UIColor colorWithHexString:@"e3a3b3"];
+    
 }
 
 - (void)didReceiveMemoryWarning {
