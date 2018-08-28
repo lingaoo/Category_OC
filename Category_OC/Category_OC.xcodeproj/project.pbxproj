@@ -51,6 +51,7 @@
 		E75D813A2125660200CD7C7D /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
 		E75D813C21256D0400CD7C7D /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		E75D813D21256D0400CD7C7D /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		E7C86C47213403E4005FC825 /* Category_OC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Category_OC.h; sourceTree = "<group>"; };
 		E7F82A49212AAB060097BC7B /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
 		E7F82A4A212AAB060097BC7B /* UIColor+HEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +103,7 @@
 		E75D810221252C4700CD7C7D /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E7C86C47213403E4005FC825 /* Category_OC.h */,
 				E7F82A49212AAB060097BC7B /* UIColor+HEX.h */,
 				E7F82A4A212AAB060097BC7B /* UIColor+HEX.m */,
 				E75D813C21256D0400CD7C7D /* NSString+Extension.h */,
@@ -347,6 +349,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R99S97SR4;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Category";
 				INFOPLIST_FILE = Category_OC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -365,6 +368,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R99S97SR4;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Category";
 				INFOPLIST_FILE = Category_OC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
