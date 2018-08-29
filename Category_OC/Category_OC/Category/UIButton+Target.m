@@ -32,7 +32,7 @@ static NSString *buttonBlockKey = @"Objc_BtnBlockClickKey";
     if(target == nil) return;
     if(action == nil) return;
     __block NSInvocation *invocation = [self invocationWithSelector:action target:target actionValue:actionValue];
-    [self addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+    [self addTarget:self action:@selector(click) forControlEvents:controlEvents];
     self.clickBlock = ^(UIButton *sender) {
         [invocation invoke];
     };

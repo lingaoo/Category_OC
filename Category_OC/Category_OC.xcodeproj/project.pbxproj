@@ -21,6 +21,7 @@
 		E75D81172125561900CD7C7D /* UITabBar+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D81162125561900CD7C7D /* UITabBar+Badge.m */; };
 		E75D813B2125660200CD7C7D /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D813A2125660200CD7C7D /* NSDate+Extension.m */; };
 		E75D813E21256D0400CD7C7D /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D813D21256D0400CD7C7D /* NSString+Extension.m */; };
+		E7C86D8221367C0F005FC825 /* UIButton+Target.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C86D8021367C0E005FC825 /* UIButton+Target.m */; };
 		E7F82A4B212AAB060097BC7B /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F82A4A212AAB060097BC7B /* UIColor+HEX.m */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		E75D813C21256D0400CD7C7D /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		E75D813D21256D0400CD7C7D /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		E7C86C47213403E4005FC825 /* Category_OC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Category_OC.h; sourceTree = "<group>"; };
+		E7C86D8021367C0E005FC825 /* UIButton+Target.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Target.m"; sourceTree = "<group>"; };
+		E7C86D8121367C0E005FC825 /* UIButton+Target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Target.h"; sourceTree = "<group>"; };
 		E7F82A49212AAB060097BC7B /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
 		E7F82A4A212AAB060097BC7B /* UIColor+HEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +117,8 @@
 				E75D813A2125660200CD7C7D /* NSDate+Extension.m */,
 				E75D81152125561900CD7C7D /* UITabBar+Badge.h */,
 				E75D81162125561900CD7C7D /* UITabBar+Badge.m */,
+				E7C86D8121367C0E005FC825 /* UIButton+Target.h */,
+				E7C86D8021367C0E005FC825 /* UIButton+Target.m */,
 				E75D81102125513C00CD7C7D /* UIImage+Scale.h */,
 				E75D810F2125513C00CD7C7D /* UIImage+Scale.m */,
 				E75D810D2125344600CD7C7D /* UIView+Frame.h */,
@@ -201,6 +206,7 @@
 				E75D81112125513D00CD7C7D /* UIImage+Scale.m in Sources */,
 				E75D810E2125344700CD7C7D /* UIView+Frame.m in Sources */,
 				E75D80F121252C2D00CD7C7D /* ViewController.m in Sources */,
+				E7C86D8221367C0F005FC825 /* UIButton+Target.m in Sources */,
 				E75D81172125561900CD7C7D /* UITabBar+Badge.m in Sources */,
 				E75D80FC21252C2E00CD7C7D /* main.m in Sources */,
 				E75D813E21256D0400CD7C7D /* NSString+Extension.m in Sources */,
